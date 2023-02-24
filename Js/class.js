@@ -211,7 +211,7 @@ function mostrarRopaCarrito(ProductoCarrito) {
         let nuevoDivRopa = document.createElement("div")
         nuevoDivRopa.innerHTML =
             `<div class="productosCarrito">
-            <div class="s">
+            <div class="divCarrito">
             <a href="./Pages/error.html" title="${ropa.nombre}"><img src="${ropa.imagen}" alt=" buzo negra fria liviana" title=" Buzo negra fria liviana" class="ropaCarrito"></a>
             <h3 class="productoTextCarrito">${ropa.nombre}</h3>
             </div>

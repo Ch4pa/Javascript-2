@@ -436,4 +436,42 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0; }
 
+.textoCarrito{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px 40px 100px;
+}
 
+.textCarrito{
+  font-size: 1.2;
+  font-weight: bolder;
+}
+
+.modal-bodyCarrito{
+  display: flex;
+  flex-direction: column;
+}
+.ropaCarrito{
+  height: 150px;
+  width: 150px;
+}
+
+.productosCarrito{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.divCarrito{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemPrecioCarrito{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
